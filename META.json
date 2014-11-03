@@ -52,6 +52,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/mix3/p5-SQL-Translator-Producer-PlantUML/issues"
+      },
+      "homepage" : "https://github.com/mix3/p5-SQL-Translator-Producer-PlantUML",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/mix3/p5-SQL-Translator-Producer-PlantUML.git",
+         "web" : "https://github.com/mix3/p5-SQL-Translator-Producer-PlantUML"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:HIMACHOCO"
 }
