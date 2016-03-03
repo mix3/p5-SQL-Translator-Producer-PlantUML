@@ -1,10 +1,10 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "PlantUML-specific producer for SQL::Translator",
    "author" : [
       "mix3 <himachocost333@hotmail.co.jp>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v2.2.0, CPAN::Meta::Converter version 2.142690",
+   "generated_by" : "Minilla/v3.0.1, CPAN::Meta::Converter version 2.150005",
    "license" : [
       "perl_5"
    ],
@@ -65,6 +65,7 @@
          "web" : "https://github.com/mix3/p5-SQL-Translator-Producer-PlantUML"
       }
    },
-   "version" : "0.03",
-   "x_authority" : "cpan:HIMACHOCO"
+   "version" : "0.04",
+   "x_authority" : "cpan:HIMACHOCO",
+   "x_serialization_backend" : "JSON::PP version 2.27300"
 }

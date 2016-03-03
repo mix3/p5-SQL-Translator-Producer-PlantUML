@@ -1,14 +1,18 @@
 # NAME
 
-SQL::Translator::Producer::PlantUML - It's new $module
+SQL::Translator::Producer::PlantUML - PlantUML-specific producer for SQL::Translator
 
 # SYNOPSIS
 
+    use SQL::Translator;
     use SQL::Translator::Producer::PlantUML;
+
+    my $t = SQL::Translator->new( parser => '...', producer => 'PlantUML', '...' );
+    $t->translate;
 
 # DESCRIPTION
 
-SQL::Translator::Producer::PlantUML is ...
+This module will produce text output of PlantUML.
 
 # LICENSE
 
@@ -19,4 +23,4 @@ it under the same terms as Perl itself.
 
 # AUTHOR
 
-mix3 <himachocost333@hotmail.co.jp>
+mix3 &lt;himachocost333@hotmail.co.jp>

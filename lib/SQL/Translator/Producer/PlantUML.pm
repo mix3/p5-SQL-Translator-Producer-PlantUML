@@ -3,7 +3,7 @@ use 5.008001;
 use strict;
 use warnings;
 
-our $VERSION = "0.03";
+our $VERSION = "0.04";
 
 use base qw/SQL::Translator::Producer::TT::Base/;
 
@@ -45,15 +45,19 @@ __END__
 
 =head1 NAME
 
-SQL::Translator::Producer::PlantUML - It's new $module
+SQL::Translator::Producer::PlantUML - PlantUML-specific producer for SQL::Translator
 
 =head1 SYNOPSIS
 
+    use SQL::Translator;
     use SQL::Translator::Producer::PlantUML;
+
+    my $t = SQL::Translator->new( parser => '...', producer => 'PlantUML', '...' );
+    $t->translate;
 
 =head1 DESCRIPTION
 
-SQL::Translator::Producer::PlantUML is ...
+This module will produce text output of PlantUML.
 
 =head1 LICENSE
 
