@@ -65,7 +65,7 @@
          "web" : "https://github.com/mix3/p5-SQL-Translator-Producer-PlantUML"
       }
    },
-   "version" : "0.04",
+   "version" : "0.05",
    "x_authority" : "cpan:HIMACHOCO",
    "x_serialization_backend" : "JSON::PP version 2.27300"
 }
